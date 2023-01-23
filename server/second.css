@@ -1,0 +1,116 @@
+
+.navtop {
+	background-color: #292a24;
+	height: 60px;
+	width: 100%;
+	border-radius: 4px;
+	border: 0;
+}
+.navtop div {
+	display: flex;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+.navtop div h1, .navtop div a {
+	display: inline-flex;
+	align-items: center;
+}
+.navtop div h1 {
+	flex: 1;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	color: #eaebed;
+	font-weight: normal;
+}
+.navtop div a {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #c1c4c8;
+	font-weight: bold;
+}
+.navtop div a i {
+	padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+	color: #eaebed;
+}
+body.loggedin {
+    background: #39383F;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.content {
+	max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.post div h1{
+	color:red;
+	padding: 10px;
+}
+.post  {
+    background: #413D4C;
+    padding: 40px;
+    position: relative;
+	margin-top: 10px;
+	padding: 10px;
+	border: 3px inset rgba(229,233,160,0.32);
+	border-radius: 21px 13px 0px 21px;
+}
+p {
+    color: #F5E2CD;
+    font-size: 14px;
+}
+ h3 {
+    display: block;
+	color: #F09EA3;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2 {
+	color: #F09EA3;
+}
+.content form input[type="info"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #f0fe2460;
+    margin-bottom: 20px;
+	background-color: #292a24;
+	border-radius: 4px;
+	color: #eaebed;
+    padding: 0 15px;
+}
+
+.content form input[type="submit"] {
+	display: inline-block;
+	font-weight: 600;
+	text-decoration: none;
+	background-color: #292a24;
+	user-select: none;
+	padding: .5em 2em;
+	outline: none;
+	color: #ffeaeb;
+	cursor: pointer;
+	border: 1px solid;
+	border-radius: 4px;
+
+}
+.content form input[type="submit"]:hover{
+	background: rgba(255,255,255,.2);
+}
+.content form input[type="submit"]:active {
+	background: white;
+}
+ td {
+	color: #eaebed;
+	font-size: 14;
+}
